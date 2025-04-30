@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Titanic Survival Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        img {
+            margin-top: 20px;
+            border: 2px solid #333;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titanic Survival Analysis</h1>
+    <p>This graph shows how many passengers survived.</p>
+    <img src="{{ url_for('static', filename='survival_graph.png') }}" alt="Survival Graph" width="600">
+</body>
+</html>
