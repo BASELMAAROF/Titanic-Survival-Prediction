@@ -1,0 +1,7 @@
+📦 Required Python Libraries for Your Titanic Project
+
+
+
+pandas
+numpy
+scikit-learn
